@@ -11,7 +11,10 @@
 In order to run the app:
 
 The user should open the file in VSCode. 
+
 The user should open the code in an integrated terminal.
+
 The user should type "streamlit run basic_streamlit_app/main.py".
+
 
 The app should open in a browser where a user can then enjoy the app!
