@@ -1,4 +1,4 @@
-#### Hello! 👋 This is **My First App: Penguins!**.
+#### Hello! 👋 This is **My First App: Penguins!**
 
 - ⚡ This app allows the user to filter the dataset based on penguin island, body mass, and species.
 - 🔬 This app allows users to examine smaller penguins from various islands and species.
