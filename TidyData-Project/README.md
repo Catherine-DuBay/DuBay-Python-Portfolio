@@ -41,8 +41,8 @@ Creating visual examples is one of the most effective ways to better understand 
 
 I have still chosen to include some of the visualizations from the Tidy Data Mutant Moneyball project. They are seen below:
 
-![Visualization 1](https://github.com/user-attachments/assets/9524e7b6-874d-4913-8f64-a98bab41d4b8)
-![Visualization 2](https://github.com/user-attachments/assets/01cc5ef4-20bc-481a-93f2-cbf4f334a6e9)
+<img width="658" alt="Visualization 1" src="https://github.com/user-attachments/assets/a0f5c713-20be-4a8f-a77e-4800936ea4f1" />
+<img width="597" alt="Visualization 2" src="https://github.com/user-attachments/assets/8b9fc470-43ad-4c45-a42f-f1a941676e3f" />
 
 ## References
 Pandas Cheat Sheet. pandas.pydata.org, https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf. Accessed 15 Mar. 2025.
