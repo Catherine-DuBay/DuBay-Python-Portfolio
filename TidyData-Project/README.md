@@ -1,5 +1,5 @@
 # Mutant Moneyball Tidy Data Project
-### *Catherine DuBay
+### **Catherine DuBay
 ### *Elements of Computing II*
 
 <img width="1717" alt="MUTANT-MONEYBALL-logo" src="https://github.com/user-attachments/assets/f036aa7d-c871-4d24-af71-16bbb826932e" />
