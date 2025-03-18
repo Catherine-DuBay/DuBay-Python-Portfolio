@@ -1,6 +1,6 @@
 # Mutant Moneyball Tidy Data Project
 ### Catherine DuBay
-### *Elements of Computing II*
+## *Elements of Computing II*
 
 <img width="1717" alt="MUTANT-MONEYBALL-logo" src="https://github.com/user-attachments/assets/f036aa7d-c871-4d24-af71-16bbb826932e" />
 
@@ -10,7 +10,7 @@ The purpose of this project is to familiarize the user with how to clean and tid
 This project demonstrates core tiny data principles, including transforming the dataset so that each variable is in its own column, each observation forms its own row, and each type of observational unit forms its own table. This project also encourages interesting data visualization practices by using tools such as seaborn.
 
 ## Instructions
-**Follow these steps in order to run the notebook:*
+*Follow these steps in order to run the notebook:*
 
 ### Step 1: Downloading and Setup
 1. **Download a copy of the Jupyter notebook.**
