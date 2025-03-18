@@ -2,7 +2,7 @@
 ### *Catherine DuBay
 ### *Elements of Computing II*
 
-![Mutant Moneyball](MUTANT-MONEYBALL-logo.png)
+<img width="1717" alt="MUTANT-MONEYBALL-logo" src="https://github.com/user-attachments/assets/f036aa7d-c871-4d24-af71-16bbb826932e" />
 
 ## Project Overview
 The purpose of this project is to familiarize the user with how to clean and tidy a disorganized and inefficient dataset. This dataset, *Mutant Moneyball*, was adapted from an article by Rally, visualizing X-Men value data from 1963 to 1993. While it contains interesting information, this information is unusable without the proper caretaking.This goal of this project is to transform this dataset into one that can be analyzed and visualized.
@@ -10,7 +10,7 @@ The purpose of this project is to familiarize the user with how to clean and tid
 This project demonstrates core tiny data principles, including transforming the dataset so that each variable is in its own column, each observation forms its own row, and each type of observational unit forms its own table. This project also encourages interesting data visualization practices by using tools such as seaborn.
 
 ## Instructions
-*Follow these steps in order to run the notebook:
+**Follow these steps in order to run the notebook:*
 
 ### Step 1: Downloading and Setup
 1. **Download a copy of the Jupyter notebook.**
@@ -41,8 +41,8 @@ Due to an unforseen error with the dataset, some of the sources have not been ap
 
 In the meantime, however, I have still chosen to include some of the visualizations from the Tidy Data Mutant Moneyball project. They are seen below:
 
-![Visualization 1](image-2.png)
-![Visualization 2](image-1.png)
+![Visualization 1](https://github.com/user-attachments/assets/9524e7b6-874d-4913-8f64-a98bab41d4b8)
+![Visualization 2](https://github.com/user-attachments/assets/01cc5ef4-20bc-481a-93f2-cbf4f334a6e9)
 
 ## References
 Pandas Cheat Sheet. pandas.pydata.org, https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf. Accessed 15 Mar. 2025.
