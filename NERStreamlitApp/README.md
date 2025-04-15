@@ -2,6 +2,8 @@
 
 This is the home page README file for my Named Entity Recognition (NER) Application project. I hope this page serves as a useful tool, providing insight into how the app functions and its overall purpose.
 
+NERStreamlitApp/Visual Examples/Named-Entity-Recognition-FINAL.png
+
 ## Contents:
 - 🧩[Project Overview](#project-overview)
 - 👩‍💻[App Features](#app-features)
@@ -47,25 +49,36 @@ Throughout this project, I utilized spaCy, which is a dictionary-based approach 
 
 Before beginning, the user must install these libraries in the terminal (not in the python file itself!). The commands required to do so are as follows:
 
-{ 
-    pip install streamlit
-    pip install pandas
-    pip install spacy
-    python -m spacy download en_core_web_sm
-}
+    { 
+        pip install streamlit
+        pip install pandas
+        pip install spacy
+        python -m spacy download en_core_web_sm
+    }
 
 3. In order to run the app locally, one must also execute an additional command in the terminal. The command is as follows:
 
-{
-    streamlit run main.py
-}
+    {
+        streamlit run main.py
+    }
 
-If that does not work, you can access it using this [link]()
+If that does not work, you can access it using this [link]().
 
 4. You can now use the Named Entity Recognition Program! You have the option to upload files, input text, customize entity patterns, visualize entities via graphs, and more!
 
 ### Visual Examples 🖼️:
 
+## This is the page that greets the user when they open the app. It automatically defaults to the upload file option, and will not display the Entity Visualization or Detected Entities categories until text is inputted.
+NERStreamlitApp/Visual Examples/Screenshot 2025-04-15 at 12.31.22 AM.png
+
+## When the user selects the "Enter text" option, this is what they will see. There is a sentence automatically entered in the box, prompting the Entity Visualization and Detected Entities categories to appear.
+NERStreamlitApp/Visual Examples/Screenshot 2025-04-15 at 12.31.45 AM.png
+
+## If the user were to scroll down (either before or after entering text), they would see three text examples. These can be copied and pasted into the textbox.
+NERStreamlitApp/Visual Examples/Screenshot 2025-04-15 at 12.31.58 AM.png
+
+## Finally, if the user were to enter one of the text examples in the textbox (in this case, it would be the "Travel / Culture / Global Events example), this is what the application would return.
+NERStreamlitApp/Visual Examples/Screenshot 2025-04-15 at 12.32.23 AM.png
 
 ### References 📕:
 - [Streamlit Cheat Sheet](https://docs.streamlit.io/develop/quick-reference/cheat-sheet)
