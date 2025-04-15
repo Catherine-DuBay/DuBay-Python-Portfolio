@@ -104,3 +104,28 @@ if text.strip():
             st.dataframe(df)
         else:
             st.info("No entities detected in the input.")
+
+# Offer example texts for testing the application
+st.subheader("Text Samples:")
+st.write("You can test the named entity recognition program with one of the texts below!")
+
+sample_text_1 = """
+    Apple Inc. is reportedly acquiring London-based AI startup DeepVision for a staggering $2.3 billion.\
+    The deal is expected to finalize by August 2025, with CEO Tim Cook stating it will 'revolutionize on-device intelligence.'\
+    Google and Microsoft were also in early talks with DeepVision before Apple made its move."""
+st.subheader("**Tech Industry / Business News Example 📉**")
+st.code(sample_text_1, language = 'text')
+
+sample_text_2 = """
+    According to a study published in The Lancet on March 3rd, 2024,\
+    researchers from the University of Oxford and Johns Hopkins University discovered that Remdivir-X,\
+    a new antiviral medication, reduces COVID-19 symptoms by 40% in patients over the age of 60.\
+    The research was funded by the World Health Organization and the Bill & Melinda Gates Foundation."""
+st.subheader("**Medical Research / Academic Example 🩺**")
+st.code(sample_text_2, language = 'text')
+
+sample_text_3 = """
+    In preparation for the 2026 World Cup, the cities of Toronto, Los Angeles, and Mexico City are undergoing major renovations to their stadiums. \
+    FIFA President Gianni Infantino announced the tournament would kick off on June 8th, with opening ceremonies held at SoFi Stadium in California."""
+st.subheader("**Travel / Culture / Global Events Example 🛫**")
+st.code(sample_text_3, language = 'text')
