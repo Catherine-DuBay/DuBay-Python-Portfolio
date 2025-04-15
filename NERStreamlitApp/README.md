@@ -69,16 +69,16 @@ If that does not work, you can access it using this [link]().
 ### Visual Examples 🖼️:
 
 ## This is the page that greets the user when they open the app. It automatically defaults to the upload file option, and will not display the Entity Visualization or Detected Entities categories until text is inputted.
-NERStreamlitApp/Visual Examples/Screenshot 2025-04-15 at 12.31.22 AM.png
+NERStreamlitApp/Visual Examples/Screenshot 1.jpg
 
 ## When the user selects the "Enter text" option, this is what they will see. There is a sentence automatically entered in the box, prompting the Entity Visualization and Detected Entities categories to appear.
-NERStreamlitApp/Visual Examples/Screenshot 2025-04-15 at 12.31.45 AM.png
+NERStreamlitApp/Visual Examples/Screenshot 2.jpg
 
 ## If the user were to scroll down (either before or after entering text), they would see three text examples. These can be copied and pasted into the textbox.
-NERStreamlitApp/Visual Examples/Screenshot 2025-04-15 at 12.31.58 AM.png
+NERStreamlitApp/Visual Examples/Screenshot 3.jpg
 
 ## Finally, if the user were to enter one of the text examples in the textbox (in this case, it would be the "Travel / Culture / Global Events example), this is what the application would return.
-NERStreamlitApp/Visual Examples/Screenshot 2025-04-15 at 12.32.23 AM.png
+NERStreamlitApp/Visual Examples/Screenshot 4.jpg
 
 ### References 📕:
 - [Streamlit Cheat Sheet](https://docs.streamlit.io/develop/quick-reference/cheat-sheet)
