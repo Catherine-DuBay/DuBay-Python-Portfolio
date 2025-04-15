@@ -11,12 +11,12 @@ This is the home page README file for my Named Entity Recognition (NER) Applicat
 - 🖼️[Visual Examples](#visual-examples)
 - 📕[References](#references)
 
-### Project Overview 🧩:
+## Project Overview 🧩:
 In this project, I built a **Named Entity Recognition Program**. This purpose of this project is to increase my app development skills as well as familiarizing me with entity recognition software. I combined these skills with my past knowledge in streamlit to create a fully functional program. 
 
 Throughout this project, I utilized spaCy, which is a dictionary-based approach to NER that relies on labels and patterns to identify entities. It allows users to utilize the **EntityRuler** approach to define custom patterns and recognize entities in a given text. 
 
-### App Features 👩‍💻:
+## App Features 👩‍💻:
 **Ability to Upload or Input Text:**
 - In this application, you can either upload a local .txt file or type into the textbox with custom texts.
 - These options allow for NER analysis of long format text as well as quick analysis of short phrases, respectively.
@@ -39,7 +39,7 @@ Throughout this project, I utilized spaCy, which is a dictionary-based approach 
 - In order to provide users with text to work with, there are three paragraphs of text located below the uploading and entity visualization sections. 
 - The textbox also comes pre-loaded with a text example.
 
-### Instructions 📋:
+## Instructions 📋:
 1. The first step of running this application is downloading the 'ner_main.py' file from this GitHub repository.
 
 2. In order to run this application, there are three required libraries:
@@ -66,7 +66,7 @@ If that does not work, you can access it using this [link]().
 
 4. You can now use the Named Entity Recognition Program! You have the option to upload files, input text, customize entity patterns, visualize entities via graphs, and more!
 
-### Visual Examples 🖼️:
+## Visual Examples 🖼️:
 
 ##### This is the page that greets the user when they open the app. It automatically defaults to the upload file option, and will not display the Entity Visualization or Detected Entities categories until text is inputted.
 ![Screenshot 1](Visual_Examples/Screenshot_1.jpg)
@@ -80,7 +80,7 @@ If that does not work, you can access it using this [link]().
 ##### Finally, if the user were to enter one of the text examples in the textbox (in this case, it would be the "Travel / Culture / Global Events example), this is what the application would return.
 ![Screenshot 4](Visual_Examples/Screenshot_4.jpg)
 
-### References 📕:
+## References 📕:
 - [Streamlit Cheat Sheet](https://docs.streamlit.io/develop/quick-reference/cheat-sheet)
 - [spaCy EntityRuler](https://spacy.io/api/entityruler)
 - [Markdown Extended Syntax – Markdown Guide](https://www.markdownguide.org/extended-syntax/)
