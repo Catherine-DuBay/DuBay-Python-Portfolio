@@ -2,7 +2,7 @@
 
 This is the home page README file for my Named Entity Recognition (NER) Application project. I hope this page serves as a useful tool, providing insight into how the app functions and its overall purpose.
 
-![Title Page Image](NERStreamlitApp/Visual_Examples/Named-Entity-Recognition-FINAL.jpg)
+![Title Page Image](Visual_Examples/Named-Entity-Recognition-FINAL.jpg)
 
 ## Contents:
 - 🧩[Project Overview](#project-overview)
@@ -69,16 +69,16 @@ If that does not work, you can access it using this [link]().
 ### Visual Examples 🖼️:
 
 ## This is the page that greets the user when they open the app. It automatically defaults to the upload file option, and will not display the Entity Visualization or Detected Entities categories until text is inputted.
-![Screenshot 1](NERStreamlitApp/Visual_Examples/Screenshot_1.jpg)
+![Screenshot 1](Visual_Examples/Screenshot_1.jpg)
 
 ## When the user selects the "Enter text" option, this is what they will see. There is a sentence automatically entered in the box, prompting the Entity Visualization and Detected Entities categories to appear.
-![Screenshot 2](NERStreamlitApp/Visual_Examples/Screenshot_2.jpg)
+![Screenshot 2](Visual_Examples/Screenshot_2.jpg)
 
 ## If the user were to scroll down (either before or after entering text), they would see three text examples. These can be copied and pasted into the textbox.
-![Screenshot 3](NERStreamlitApp/Visual_Examples/Screenshot_3.jpg)
+![Screenshot 3](Visual_Examples/Screenshot_3.jpg)
 
 ## Finally, if the user were to enter one of the text examples in the textbox (in this case, it would be the "Travel / Culture / Global Events example), this is what the application would return.
-![Screenshot 4](NERStreamlitApp/Visual_Examples/Screenshot_4.jpg)
+![Screenshot 4](Visual_Examples/Screenshot_4.jpg)
 
 ### References 📕:
 - [Streamlit Cheat Sheet](https://docs.streamlit.io/develop/quick-reference/cheat-sheet)
