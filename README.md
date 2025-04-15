@@ -8,6 +8,14 @@ In this repository, I will store all of my projects for the upcoming semester.
 
 # **Projects:**
 
+## Named Entity Recognition Program 📱
+
+This project demonstrates my ability to combine programs like spaCy and streamlit to create an application.
+
+ - 👩‍💻 Familiarizes users with entity recognition software and visualizations through spaCy and streamlit.
+ - 🛜 Allows users to upload or input their own text and create custom Entity Rulers.
+ - 💭 Highlights different entities for streamlined identification and understanding. 
+
 ## Tidy Data Project: Mutant Moneyball 💸
 
 This project demonstrates my ability to both clean and visualize data for more effective learning.
