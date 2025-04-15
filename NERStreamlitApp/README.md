@@ -62,7 +62,7 @@ Before beginning, the user must install these libraries in the terminal (not in 
         streamlit run main.py
     }
 
-If that does not work, you can access it using this [link]().
+If that does not work, you can access it using this [link](https://dubay-python-portfolio-gsgqtjqzwrn4jq8zcsruby.streamlit.app).
 
 4. You can now use the Named Entity Recognition Program! You have the option to upload files, input text, customize entity patterns, visualize entities via graphs, and more!
 
