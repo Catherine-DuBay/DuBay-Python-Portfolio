@@ -1,5 +1,4 @@
-# Display score statistics in a sidebar
-st.sidebar.title("Your Overall Score")# Import necessary functions.
+# Import necessary functions.
 import streamlit as st
 import pandas as pd
 import datetime
@@ -134,6 +133,9 @@ Your mission:
 📊 Your accuracy and progress are tracked in the sidebar.  
 See how many rounds you can complete—and how sharp your historical instincts really are.
 """)
+
+# Display score statistics in a sidebar
+st.sidebar.title("Your Overall Score")
 
 # Add reset scores button with the dedicated function - this will trigger a rerun
 reset_button = st.sidebar.button("Reset All Scores")
