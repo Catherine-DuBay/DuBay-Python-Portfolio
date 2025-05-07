@@ -155,20 +155,12 @@ st.sidebar.metric("Total Positions Attempted", st.session_state.total_positions_
 # Add reset scores button with the dedicated function
 if st.sidebar.button("Reset All Scores") or st.session_state.scores_reset:
     reset_scores()
-<<<<<<< HEAD
     
 # Check if scores were reset and display confirmation message
 if hasattr(st.session_state, 'scores_reset') and st.session_state.scores_reset:
     st.sidebar.success("Scores have been reset successfully!")
     # Reset the flag so the message doesn't show again on next rerun
     st.session_state.scores_reset = False
-=======
-    # If scores were reset, show a confirmation message
-    if st.session_state.scores_reset:
-        st.sidebar.success("Scores have been reset successfully!")
-        # Reset the flag so the message doesn't show again on next rerun
-        st.session_state.scores_reset = False
->>>>>>> b3dc71fb524d5f340ab6216cc165ad4747ca961c
 
 # Step 1: Date Input
 # Get current date to use as default
