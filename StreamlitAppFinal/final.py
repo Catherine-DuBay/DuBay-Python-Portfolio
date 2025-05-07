@@ -104,6 +104,15 @@ def reset_game():
         for i in range(5):
             st.session_state[f"select_{i}"] = '-'
 
+# Function to reset scores
+def reset_scores():
+    st.session_state.rounds_played = 0
+    st.session_state.total_positions_attempted = 0
+    st.session_state.total_positions_correct = 0
+    st.session_state.current_round_best_score = 0
+    # This line forces Streamlit to rerun after resetting the scores
+    st.experimental_rerun()
+
 # Title of the app
 st.title("Timeline 🕰️")
 
@@ -142,12 +151,9 @@ st.sidebar.metric("Current Round Best", f"{current_round_accuracy:.1f}%")
 st.sidebar.metric("Total Correct Positions", st.session_state.total_positions_correct)
 st.sidebar.metric("Total Positions Attempted", st.session_state.total_positions_attempted)
 
-# Add reset scores button
+# Add reset scores button with the dedicated function
 if st.sidebar.button("Reset All Scores"):
-    st.session_state.rounds_played = 0
-    st.session_state.total_positions_attempted = 0
-    st.session_state.total_positions_correct = 0
-    st.session_state.current_round_best_score = 0
+    reset_scores()
 
 # Step 1: Date Input
 # Get current date to use as default
