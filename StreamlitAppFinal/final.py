@@ -159,7 +159,7 @@ st.sidebar.metric("Total Positions Attempted", st.session_state.total_positions_
 # Handle reset button clicks and confirmation message
 if reset_button:
     reset_scores()
-    st.sidebar.failure("Are you sure you want to reset? If so, press 'Reset All Scores' again.")
+    st.sidebar.warning("Are you sure you want to reset? If so, press 'Reset All Scores' again.")
 
 # Step 1: Date Input
 # Get current date to use as default
