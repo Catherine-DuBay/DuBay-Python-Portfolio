@@ -126,9 +126,13 @@ Choose any week of the year, and we'll drop you into a moment in history with **
 
 Your mission:  
 🔍 **Put the events in chronological order** based on the year they occurred.
+
 🎯 Get it right, and you'll reveal the secret year for each event.  
+
 💡 Not quite there? You can keep guessing until you nail the full timeline!
+
 📊 Your accuracy and progress are tracked in the sidebar.  
+
             
 See how many rounds you can complete—and how sharp your historical instincts really are.
 """)
