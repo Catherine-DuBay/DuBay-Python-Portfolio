@@ -155,7 +155,6 @@ if st.session_state.current_round_best_score > 0:
 
 # Display metrics
 st.sidebar.metric("Overall Accuracy", f"{accuracy:.1f}%")
-st.sidebar.metric("Current Round Best", f"{current_round_accuracy:.1f}%")
 st.sidebar.metric("Total Correct Positions", st.session_state.total_positions_correct)
 st.sidebar.metric("Total Positions Attempted", st.session_state.total_positions_attempted)
 
