@@ -18,6 +18,7 @@ if 'app_initialized' not in st.session_state:
     st.session_state.submitted = False  # Track if submission was made
     st.session_state.events_shuffled = None
     st.session_state.need_rerun = False # Flag to indicate we need to update UI
+    st.session_state.scores_reset = False # Flag to track if scores were reset
 
     # Score tracking variables
     st.session_state.rounds_played = 0
@@ -110,8 +111,8 @@ def reset_scores():
     st.session_state.total_positions_attempted = 0
     st.session_state.total_positions_correct = 0
     st.session_state.current_round_best_score = 0
-    # This line forces Streamlit to rerun after resetting the scores
-    st.experimental_rerun()
+    # Add a flag to indicate scores were reset
+    st.session_state.scores_reset = True
 
 # Title of the app
 st.title("Timeline 🕰️")
@@ -152,8 +153,13 @@ st.sidebar.metric("Total Correct Positions", st.session_state.total_positions_co
 st.sidebar.metric("Total Positions Attempted", st.session_state.total_positions_attempted)
 
 # Add reset scores button with the dedicated function
-if st.sidebar.button("Reset All Scores"):
+if st.sidebar.button("Reset All Scores") or st.session_state.scores_reset:
     reset_scores()
+    # If scores were reset, show a confirmation message
+    if st.session_state.scores_reset:
+        st.sidebar.success("Scores have been reset successfully!")
+        # Reset the flag so the message doesn't show again on next rerun
+        st.session_state.scores_reset = False
 
 # Step 1: Date Input
 # Get current date to use as default
