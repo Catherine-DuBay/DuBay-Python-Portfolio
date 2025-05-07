@@ -1,4 +1,5 @@
-# Import necessary functions.
+# Display score statistics in a sidebar
+st.sidebar.title("Your Overall Score")# Import necessary functions.
 import streamlit as st
 import pandas as pd
 import datetime
@@ -134,10 +135,10 @@ Your mission:
 See how many rounds you can complete—and how sharp your historical instincts really are.
 """)
 
-# Display score statistics in a sidebar
-st.sidebar.title("Your Overall Score")
+# Add reset scores button with the dedicated function - this will trigger a rerun
+reset_button = st.sidebar.button("Reset All Scores")
 
-# Calculate accuracy based on total positions correct vs. positions attempted
+# Ensure we calculate and display the metrics before potentially resetting them
 accuracy = 0
 if st.session_state.total_positions_attempted > 0:
     accuracy = (st.session_state.total_positions_correct / st.session_state.total_positions_attempted) * 100
@@ -147,20 +148,18 @@ current_round_accuracy = 0
 if st.session_state.current_round_best_score > 0:
     current_round_accuracy = (st.session_state.current_round_best_score / 5) * 100
 
+# Display metrics
 st.sidebar.metric("Overall Accuracy", f"{accuracy:.1f}%")
 st.sidebar.metric("Current Round Best", f"{current_round_accuracy:.1f}%")
 st.sidebar.metric("Total Correct Positions", st.session_state.total_positions_correct)
 st.sidebar.metric("Total Positions Attempted", st.session_state.total_positions_attempted)
 
-# Add reset scores button with the dedicated function
-if st.sidebar.button("Reset All Scores") or st.session_state.scores_reset:
+# Handle reset button clicks and confirmation message
+if reset_button:
     reset_scores()
-    
-# Check if scores were reset and display confirmation message
-if hasattr(st.session_state, 'scores_reset') and st.session_state.scores_reset:
     st.sidebar.success("Scores have been reset successfully!")
-    # Reset the flag so the message doesn't show again on next rerun
-    st.session_state.scores_reset = False
+    # Note: For older Streamlit versions without experimental_rerun(), 
+    # we'll need a user to interact again to see updated metrics
 
 # Step 1: Date Input
 # Get current date to use as default
