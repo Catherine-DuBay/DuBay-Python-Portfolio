@@ -5,7 +5,7 @@ import datetime
 
 # Load dataset
 def load_data():
-    return pd.read_csv("historical_events.csv", parse_dates=["Start Date", "End Date"])
+    return pd.read_csv("StreamlitAppFinal/historical_events.csv", parse_dates=["Start Date", "End Date"])
 
 # Initialize session state variables
 if 'app_initialized' not in st.session_state:
