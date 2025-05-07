@@ -159,9 +159,7 @@ st.sidebar.metric("Total Positions Attempted", st.session_state.total_positions_
 # Handle reset button clicks and confirmation message
 if reset_button:
     reset_scores()
-    st.sidebar.success("Scores have been reset successfully!")
-    # Note: For older Streamlit versions without experimental_rerun(), 
-    # we'll need a user to interact again to see updated metrics
+    st.sidebar.failure("Are you sure you want to reset? If so, press 'Reset All Scores' again.")
 
 # Step 1: Date Input
 # Get current date to use as default
