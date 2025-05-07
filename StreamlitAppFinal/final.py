@@ -135,6 +135,7 @@ Choose any week of the year, and we'll drop you into a moment in history with **
 📊 Your accuracy and progress are tracked in the sidebar.  
 
             
+
 See how many rounds you can complete—and how sharp your historical instincts really are.
 """)
 
