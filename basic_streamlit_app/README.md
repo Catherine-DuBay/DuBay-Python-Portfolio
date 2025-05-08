@@ -10,6 +10,8 @@ This is the home page README file for my first ever Streamlit app. I hope this p
 - 🧩[Project Overview](#project-overview)
 - 👩‍💻[App Features](#app-features)
 - 📋[Instructions](#instructions)
+- 🖼️[Visual Examples](#visual-examples)
+- 📕[References](#references)
 
 ## Project Overview 🧩:
 ⚡ This app allows the user to filter the dataset based on penguin island, body mass, and species.
@@ -31,3 +33,10 @@ This is the home page README file for my first ever Streamlit app. I hope this p
 4. The user should type "streamlit run main.py".
 
 5. The app should open in a browser where a user can then enjoy the app!
+
+## Visual Examples 🖼️:
+
+
+## References 📕:
+- [Streamlit Cheat Sheet](https://docs.streamlit.io/develop/quick-reference/cheat-sheet)
+- [Markdown Extended Syntax – Markdown Guide](https://www.markdownguide.org/extended-syntax/)
