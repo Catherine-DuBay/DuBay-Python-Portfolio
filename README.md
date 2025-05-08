@@ -1,5 +1,19 @@
 # Hello! 👋 This is my **Elements of Computing II Python Portfolio**.
 
+## 🔍 Skills At a Glance:
+
+#### 💻 Programming & Development
+- Python, Streamlit, GitHub, VSCode
+
+#### 📊 Data Science & Analysis
+- Pandas, Data Cleaning, Data Visualization, Seaborn, Pivot Tables
+
+#### 🧠 Natural Language Processing
+- spaCy, Custom Entity Rulers, Text Analysis
+
+#### 🔄 General Technical Skills
+- Web Deployment, Application Integration, Dataset Management, User Input Processing
+
 ### Beginning of the Semester Reflection: 
 
 In this repository, I will store all of my projects for the upcoming semester. 
