@@ -2,6 +2,8 @@
 
 ### 🔗 [Link](https://penguins-basic.streamlit.app) to Penguins Streamlit App.
 
+This is the home page README file for my first ever Streamlit app. I hope this page teaches you how to use the app and encourages you to explore this dataset.
+
 ![Title Page Image](penguins.jpg)
 
 ## Contents:
