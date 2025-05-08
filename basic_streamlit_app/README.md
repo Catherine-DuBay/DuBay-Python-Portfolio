@@ -36,6 +36,17 @@ This is the home page README file for my first ever Streamlit app. I hope this p
 
 ## Visual Examples 🖼️:
 
+##### This is the page that greets the user when they open the app. It provides instructions for operating the app as well as displaying the penguins dataset.
+![Image 1](Visual_Examples/Image_1.jpg)
+
+##### The user can select the island they want to examine. After that, they will find a count of the number of penguins on that island as well as the dataset with penguins from that island.
+![Image 2](Visual_Examples/Image_2.jpg)
+
+##### The user can select a maximum body mass value, viewing only penguins below that mass. It will again display the number of penguins and the dataset.
+![Image 3](Visual_Examples/Image_3.jpg)
+
+##### Finally, the user can select a species. It will again display the number of penguins and datasets. This way, they can only view the penguins from that island, of that species, below that body mass.
+![Image 4](Visual_Examples/Image_4.jpg)
 
 ## References 📕:
 - [Streamlit Cheat Sheet](https://docs.streamlit.io/develop/quick-reference/cheat-sheet)
