@@ -2,7 +2,7 @@
 
 ### 🔗 [Link](https://timeline-final.streamlit.app) to Timeline Streamlit App.
 
-### 🔍 Skills At a Glance:
+🔍 Skills At a Glance:
 Streamlit web app deployment, game mechanics design, conditional logic, interactive UI creation, data management, user input validation, session state handling
 
 This is the home page README file for my Streamlit Final Project. I hope this page provides insight into why I created this app as well as teaches those about the programming behind it. 
