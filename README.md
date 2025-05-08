@@ -8,7 +8,17 @@ In this repository, I will store all of my projects for the upcoming semester.
 
 # **Projects:**
 
+## Timeline: The Historical Event Challenge! 🕰️
+##### 🔗 [Link](https://timeline-final.streamlit.app) to Timeline Streamlit App.
+
+This project demonstrates my ability to code imaginatively, combining my skills and knowledge with my creative side.
+
+  - 📔 Tests players' knowledge of history in an exciting game format.
+  - 🎯 Uses scoring system to track accuracy and keep players engaged. 
+  - ✨ Inspires players to use their imagination to code creatively. 
+
 ## Named Entity Recognition Program 📱
+##### 🔗 [Link](https://ner-main.streamlit.app) to NER Streamlit App.
 
 This project demonstrates my ability to combine programs like spaCy and streamlit to create an application.
 
@@ -25,6 +35,7 @@ This project demonstrates my ability to both clean and visualize data for more e
   - 🧭 Teaches key concepts of data visualization and pivot tables for more efficient data analysis.
 
 ## Basic Streamlit App: Penguins 🐧
+##### 🔗 [Link](https://penguins-basic.streamlit.app) to Penguins Streamlit App.
 
 This project demonstrates my ability work with real datasets in order to build a basic website app.
 
