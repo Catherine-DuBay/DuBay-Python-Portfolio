@@ -18,7 +18,7 @@ st.write("""
 st.write("This app allows users to examine smaller penguins from various islands and species.")
 
 # Dataset I am working with
-df = pd.read_csv("data/penguins.csv")
+df = pd.read_csv("basic_streamlit_app/data/penguins.csv")
 st.write("Here is the penguins dataset loaded from a CSV file:")
 st.dataframe(df)
 
