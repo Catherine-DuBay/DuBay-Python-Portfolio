@@ -74,16 +74,16 @@ Before beginning, the user must install these libraries in the terminal (not in 
 7. Players can reset the game or their score at any time.
 
 ## Visual Examples 🖼️:
-##### This is the page that greets the user when they open the app. It automatically defaults to the day the app was opened. The user's accuracy is displayed in the sidebar.
+### This is the page that greets the user when they open the app. It automatically defaults to the day the app was opened. The user's accuracy is displayed in the sidebar.
 ![Image 1](pictures/Image_1.jpeg)
 
-##### When the user selects a date (or keeps the automatically assigned one), they will see the week of the year that the date falls within. They will also see the five events from that week.
+### When the user selects a date (or keeps the automatically assigned one), they will see the week of the year that the date falls within. They will also see the five events from that week.
 ![Image 2](pictures/Image_2.jpeg)
 
-##### The user will select the order they think the events happened in. If they are correct, it will glow green. If they are incorrect, the event will stay the same color and they will receive a warning message at the bottom.
+### The user will select the order they think the events happened in. If they are correct, it will glow green. If they are incorrect, the event will stay the same color and they will receive a warning message at the bottom.
 ![Image 3](pictures/Image_3.jpeg)
 
-##### The user can resubmit their answers until all five events are in the correct spot. When this happens, they will receive a congratulatory message at the bottom.
+### The user can resubmit their answers until all five events are in the correct spot. When this happens, they will receive a congratulatory message at the bottom.
 ![Image 4](pictures/Image_4.jpeg)
 
 ## References 📕:
