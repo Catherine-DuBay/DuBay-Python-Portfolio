@@ -1,5 +1,14 @@
 # Mutant Moneyball Tidy Data Project!💸
 
+🔍 Skills At a Glance:
+- Pandas data manipulation
+- Data cleaning methods
+- Missing value handling
+- Data transformation
+- Exploratory data analysis
+- Statistical visualization
+- Data normalization techniques
+
 This is the home page README file for my Tidy Data Project. I hope this page emphasizes the importance of tidy datasets and teaches people how to use them efficiently.
 
 <img width="1717" alt="MUTANT-MONEYBALL-logo" src="https://github.com/user-attachments/assets/f036aa7d-c871-4d24-af71-16bbb826932e" />
