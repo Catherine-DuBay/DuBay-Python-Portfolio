@@ -14,14 +14,6 @@
 #### 🔄 General Technical Skills
 - Web Deployment, Application Integration, Dataset Management, User Input Processing
 
-## Beginning of the Semester Reflection: 
-
-In this repository, I will store all of my projects for the upcoming semester. 
-
-- 💬 I am comfortable working with platforms such as VSCode.
-- 🔭 I am  excited to use features such as streamlit, pandas, and seaborn.
-- ⚡ I am looking forward to learning more about GitHub and building my portfolio.
-
 # **Projects:**
 
 Together, these projects create a **well-rounded portfolio** that demonstrates my technical range (from data analysis to NLP to web apps), creativity, and practical application of programming concepts. The progression from basic data visualization to more complex applications shows growth in my programming journey.
