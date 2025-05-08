@@ -2,6 +2,15 @@
 
 ### 🔗 [Link](https://ner-main.streamlit.app) to NER Streamlit App.
 
+🔍 Skills At a Glance:
+- Natural language processing
+- spaCy library implementation
+- Custom entity configuration
+- Text visualization
+- File handling
+- User interface design
+- Text analysis
+
 This is the home page README file for my Named Entity Recognition (NER) Application project. I hope this page serves as a useful tool, providing insight into how the app functions and its overall purpose.
 
 ![Title Page Image](Visual_Examples/Named-Entity-Recognition-FINAL.png)
