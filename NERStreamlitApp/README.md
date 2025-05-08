@@ -1,5 +1,7 @@
 # Named Entity Recognition Program!📱
 
+[Link to NER Streamlit App] (https://dubay-python-portfolio-gsgqtjqzwrn4jq8zcsruby.streamlit.app).
+
 This is the home page README file for my Named Entity Recognition (NER) Application project. I hope this page serves as a useful tool, providing insight into how the app functions and its overall purpose.
 
 ![Title Page Image](Visual_Examples/Named-Entity-Recognition-FINAL.png)
