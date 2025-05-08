@@ -37,7 +37,7 @@ This is the home page README file for my first ever Streamlit app. I hope this p
 ## Visual Examples 🖼️:
 
 ##### This is the page that greets the user when they open the app. It provides instructions for operating the app as well as displaying the penguins dataset.
-![Image 1](basic_streamlit_app/visual_images/Image_1.jpeg)
+[![Image 1](basic_streamlit_app/visual_images/Image_1.jpeg)](https://github.com/Catherine-DuBay/DuBay-Python-Portfolio/blob/65b24fb41095ee9d8e943231211699fab2c3d34e/basic_streamlit_app/visual_images/Image_1.jpeg)
 
 ##### The user can select the island they want to examine. After that, they will find a count of the number of penguins on that island as well as the dataset with penguins from that island.
 ![Image 2](basic_streamlit_app/Visual_Examples/Image_2.jpg)
