@@ -14,7 +14,7 @@
 #### 🔄 General Technical Skills
 - Web Deployment, Application Integration, Dataset Management, User Input Processing
 
-### Beginning of the Semester Reflection: 
+## Beginning of the Semester Reflection: 
 
 In this repository, I will store all of my projects for the upcoming semester. 
 
