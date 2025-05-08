@@ -1,6 +1,6 @@
 #### Hello! 👋 This is **My First App: Penguins!**
 
-### 🔗 [Link](https://dubay-python-portfolio-gsgqtjqzwrn4jq8zcsruby.streamlit.app) to Penguins Streamlit App.
+### 🔗 [Link](https://penguins-basic.streamlit.app) to Penguins Streamlit App.
 
 - ⚡ This app allows the user to filter the dataset based on penguin island, body mass, and species.
 - 🔬 This app allows users to examine smaller penguins from various islands and species.
